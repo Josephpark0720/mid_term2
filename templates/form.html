@@ -6,16 +6,9 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <p class="lead">
-          {% if name %}
-            こんにちは {{ name }} さん
-          {% else %}
-            {{ message }}
-          {% endif %}
-        </p>
         <form action="/form" method="post" class="form-inline">
-          <label for="name">名前</label>
-          <input type="text" class="form-control" id="name" name="name" placeholder="Name">
+          <label for="title">名前</label><label for=""
+          <input type="text" class="form-control" id="title" name="title" placeholder="Title">
           <button type="submit" class="btn btn-default">送信する</button>
         </form>
       </div>
